@@ -1,0 +1,1 @@
+This lab shows how a function determines a lamp's brightness based on the switch state and brightness setting. When the switch is turned on, the lamp uses the specified brightness; when it is turned off, the brightness is zero.
