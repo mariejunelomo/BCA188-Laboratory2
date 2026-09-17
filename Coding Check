@@ -1,0 +1,17 @@
+1. In int brightnessSetting = 75;, identify the data type, variable name, and initial value. How would you change the value to 50?
+- The data type is integer (int), the variable name is brightnessSetting, and the initial value is 75. To change the value to 50, you just have to change its value or assign its value, in this case from 75 to 50. Thus, it will become brightnessSetting = 50;.
+
+2. Why is bool suitable for switchOn, while int is suitable for brightnessSetting?
+- Bool is suitable for switchOn because it only consists of 2 states, which are on or off, which also matches the true/ false state of a boolean. Now, int is suitable for brightnessSetting because it can cater to different integers that range from 0 to 100 for the brightness.
+
+3. Predict the output when brightnessSetting is 80 and switchOn is false.
+- The output will be for when brightnessSetting is 80 and switchOn is false: "Brightness setting: 80" and "Lamp brightness: 0". The value of Lamp brightness remains at 0 because switchOn is false, meaning it is turned off.
+
+4. Are switchOn and switchon the same variable? Explain.
+- No, they are 2 different variables. The main difference they hold is the letter O: one is in capital the other is not. Moreover, C++ is case-sensitive; thus, even the composition of letters holds a significant difference.
+
+5. What values are passed to getLampBrightness(), and what does it return?
+- brightnessSetting (int) and switchOn (bool) are the values passed to getLampBrightness(). If the switch is on, the function returns an int value depending on what was the input; if false, it returns 0.
+
+6. If lampBrightness is declared inside setup(), can loop() access it directly? Explain.
+- If lampBrightness is declared inside setup(), loop() cannot access it directly. This is due to the fact that lampBrightness is a local variable, which means that its scope is restricted to the function in which it was declared. It would have to be declared as a global variable outside of both functions in order to be accessible in loop().
